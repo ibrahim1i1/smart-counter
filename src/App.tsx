@@ -10,7 +10,7 @@ function App() {
   };
 
   const handleDecrement = () => {
-    setCount(prev => prev - 1);
+    setCount(prev => prev - step);
   };
 
   const handleReset = () => {
@@ -25,11 +25,11 @@ function App() {
         <button onClick={handleDecrement} disabled={count <= 0} >-{step}</button>
         <button className='reset-btn' onClick={handleReset}>Reset</button>
       </div>
-      <div step-control>
+      <div className='step-control'>
         <label>مقدار الخطوة: </label>
         <input type="number"
         min='1'
-        value={step}
+        value={'step'}
         onChange={(e) => setStep(Number(e.target.value))}
         />
       </div>

@@ -1,0 +1,56 @@
+.container {
+    max-width: 350px;
+    margin: 60px auto;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.count-display {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: rgb(39, 39, 247);
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 17px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f3f4f6;
+    transition: 0.2;
+}
+
+button:hover {
+    background-color: #e5e7eb;
+}
+
+button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.reset-btn {
+    background-color: #fee2e2;
+    border-color: #fca5a5;
+    color: red;
+}
+
+.step-control input{
+    width: 50px;
+    padding: 4px;
+    margin-right: 8px;
+    text-align: center;
+}

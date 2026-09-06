@@ -29,7 +29,7 @@ function App() {
         <label>مقدار الخطوة: </label>
         <input type="number"
         min='1'
-        value={'step'}
+        value={step}
         onChange={(e) => setStep(Number(e.target.value))}
         />
       </div>
